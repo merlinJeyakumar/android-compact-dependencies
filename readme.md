@@ -7,5 +7,5 @@ This repository having the less problems having library versions for the newer p
  - Jetpack Components
 
 Official Architectures:
- - Basic-MVVM-Architecture (NA)
- - Multi-Industrial-Multi-Clean-Architecture (https://github.com/merlinJeyakumar/android-architecture-mvvm-versions)
+ - [Multi Module Architecture](https://github.com/merlinJeyakumar/kotlin-multi-module-mvvm-architecture-android.git)
+ - [Single Module Architecture](https://github.com/merlinJeyakumar/kotlin-single-module-architecture-android.git)
