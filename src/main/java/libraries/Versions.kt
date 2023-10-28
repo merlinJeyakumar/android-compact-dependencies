@@ -21,7 +21,7 @@ object Versions {
     const val runtime_ktx = "2.6.1" //https://developer.android.com/jetpack/androidx/releases/lifecycle
     const val viewmodel_ktx = "2.6.1" //https://developer.android.com/jetpack/androidx/releases/viewmodel
     const val livedata_ktx = "2.6.1" //https://developer.android.com/jetpack/androidx/releases/lifecycle
-    const val classpathDaggerHiltVersion = "2.46.1" //https://dagger.dev/hilt/gradle-setup.html
+    const val classpathDaggerHiltVersion = "2.48" //https://dagger.dev/hilt/gradle-setup.html
     const val hilt_android = classpathDaggerHiltVersion //"2.42" //https://dagger.dev/hilt/gradle-setup.html
     const val hilt_android_compiler = classpathDaggerHiltVersion//"2.42" //https://dagger.dev/hilt/gradle-setup.html
     const val hilt_compiler = "1.0.0" //https://developer.android.com/training/dependency-injection/hilt-jetpack
