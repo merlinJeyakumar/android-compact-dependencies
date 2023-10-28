@@ -1,11 +1,15 @@
 # Build Src
 
-This repository having the less problems having library versions for the newer project or upgrading the project to latest stable channel
+## Description
+Highly stable channel dependencies which used for Extensible, Less Problematic for Android Development
 
-### 
- - AndroidX
- - Jetpack Components
+## Installation
+ - Preferring to use below listed architectures, Just clone and place on ```/buildSrc/``` directory
+ - Want to use on externally, Place on root of project and use ``` `kotlin-dsl` ``` keyword in project level gradle
 
-Official Architectures:
- - Basic-MVVM-Architecture (NA)
- - Multi-Industrial-Multi-Clean-Architecture (https://github.com/merlinJeyakumar/android-architecture-mvvm-versions)
+## Usable Architectures:
+ - [Multi Module Architecture](https://github.com/merlinJeyakumar/kotlin-multi-module-mvvm-architecture-android.git)
+ - [Single Module Architecture](https://github.com/merlinJeyakumar/kotlin-single-module-architecture-android.git)
+
+## Motivation:
+ Wishing to put low effort to develop highly scalable android application from scratch
