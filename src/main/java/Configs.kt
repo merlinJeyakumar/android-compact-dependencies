@@ -1,5 +1,5 @@
 object Configs {
-    const val applicationId = "com.nativedevps.myapplication"
+    const val applicationId = "com.nativedevps.arch"
     const val kotlinVersion = "1.7.20"
     const val classpathGradleVersion = "7.5"
     const val kotlinGradlePlugin = "1.8.20"
