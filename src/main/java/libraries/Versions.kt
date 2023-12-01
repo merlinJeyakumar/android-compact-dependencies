@@ -74,7 +74,7 @@ object Versions {
     const val playservices_coroutines = "1.6.4"
 
     //Database Libraries
-    const val room_runtime = "2.6.0-alpha01"
+    const val room_runtime = "2.6.1"
     const val room_ktx = room_runtime
     const val room_rxjava3 = room_runtime
     const val room_paging = room_runtime
