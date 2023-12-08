@@ -13,7 +13,7 @@ object ProjectRootLibraries {
         "com.google.firebase:perf-plugin:${Versions.classpathFirebasePerfs}"
     const val classpathCrashlytics =
         "com.google.firebase:firebase-crashlytics-gradle:${Versions.classpathCrashlytics}"
-    const val support = ":support"
+    const val support = ":jeyksupport"
     const val data = ":data"
     const val domain = ":domain"
 }

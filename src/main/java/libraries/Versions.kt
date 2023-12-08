@@ -66,7 +66,7 @@ object Versions {
     const val chucker = "3.5.2"
 
     //Firebase Libraries
-    const val classpathGoogleServices = "4.3.10"
+    const val classpathGoogleServices = "4.3.8"
     const val classpathCrashlytics = "2.7.1"
     const val classpathFirebasePerfs = "1.4.0"
     const val firebase_bom = "31.1.1"
