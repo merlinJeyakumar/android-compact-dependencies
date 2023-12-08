@@ -138,7 +138,7 @@ fun DependencyHandler.thirdPartyLibraries() {
 }
 
 fun DependencyHandler.cryptoLibraries() {
-    implementation("com.google.crypto.tink:tink-android:1.6.1")
+    implementation("com.google.crypto.tink:tink-android:1.7.0")
 }
 
 fun DependencyHandler.navigationLibrary(){
