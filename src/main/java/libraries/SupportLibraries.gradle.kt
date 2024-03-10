@@ -178,7 +178,7 @@ object ThirdPartyLibraries {
     const val jsoup = "org.jsoup:jsoup:${Versions.jsoup}" //html-parser
     const val auto_starter = "com.github.judemanutd:autostarter:1.0.6" //https://github.com/judemanutd/AutoStarter
     const val subsampling_scale_image_view = "com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0" //https://github.com/davemorrissey/subsampling-scale-image-view
-    const val otpview_pinview = "com.github.mukeshsolanki:android-otpview-pinview:2.1.2"
+    const val otpview_pinview = "com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0"
     const val material_spinner = "com.jaredrummler:material-spinner:1.3.1"
 }
 
