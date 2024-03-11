@@ -131,7 +131,6 @@ fun DependencyHandler.firebaseExternalLibraries() {
 }
 
 fun DependencyHandler.thirdPartyLibraries() {
-    implementation(ThirdPartyLibraries.otpview_pinview)
     implementation(ThirdPartyLibraries.material_spinner)
     implementation("com.github.merlinJeyakumar:notify:1.0.6")
     implementation("com.wdullaer:materialdatetimepicker:4.2.3") //https://github.com/wdullaer/MaterialDateTimePicker
