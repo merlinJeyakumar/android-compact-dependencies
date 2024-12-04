@@ -3,7 +3,7 @@ package libraries
 object Versions {
 
     // Required Core Libraries
-    const val appCompatVersion = "1.6.1" //todo: https://androidx.tech/artifacts/appcompat/appcompat/
+    const val appCompatVersion = "1.7.0" //todo: https://androidx.tech/artifacts/appcompat/appcompat/
     const val core_ktx = "1.9.0" //todo: https://androidx.tech/artifacts/core/core-ktx/
     const val multi_dex = "2.0.1"
     const val lifecycle_extension = "2.2.0" //https://developer.android.com/jetpack/androidx/releases/lifecycle
@@ -14,8 +14,8 @@ object Versions {
     const val json_serializer = "1.0.1"
     const val anko = "0.10.4" //https://mvnrepository.com/artifact/org.jetbrains.anko/anko?repo=springio-plugins-release
     const val anko_commons = "0.10.4" //https://mvnrepository.com/artifact/org.jetbrains.anko/anko-common?repo=springio-plugins-release
-    const val activity_ktx = "1.7.1"
-    const val fragment_ktx = "1.5.7"
+    const val activity_ktx = "1.9.1"
+    const val fragment_ktx = "1.8.2"
     const val navigation_fragment_ktx = "2.5.2"
     const val databinding = "8.1.0-beta05" //https://mvnrepository.com/artifact/com.android.databinding/viewbinding?repo=google
     const val runtime_ktx = "2.6.1" //https://developer.android.com/jetpack/androidx/releases/lifecycle
@@ -31,10 +31,10 @@ object Versions {
 
     // Support Libraries
     const val constraintLayoutVersion = "2.1.4" //https://developer.android.com/jetpack/androidx/releases/constraintlayout
-    const val materialVersion = "1.9.0" //https://github.com/material-components/material-components-android/releases
+    const val materialVersion = "1.12.0" //https://github.com/material-components/material-components-android/releases
     const val support_design = "28.0.0" //https://developer.android.com/topic/libraries/support-library/packages
-    const val sdp_android = "1.1.0" //https://github.com/intuit/sdp
-    const val ssp_android = "1.1.0" //https://github.com/intuit/ssp
+    const val sdp_android = "1.1.1" //https://github.com/intuit/sdp
+    const val ssp_android = "1.1.1" //https://github.com/intuit/ssp
     const val recyclerView = "1.3.0" //https://androidx.tech/artifacts/recyclerview/recyclerview/
     const val card_view = "1.0.0"
     const val legacy_support = "1.0.0"
@@ -45,7 +45,7 @@ object Versions {
     const val lottie = "5.2.0"
     const val shimmer = "0.4.0"
     const val libPhoneNumber = "8.3.1"
-    const val work_runtime_ktx = "2.8.1"
+    const val work_runtime_ktx = "2.9.0"
     const val work_hilt = "1.0.0"
     const val work_rxjava3 = "2.4.0"
 
@@ -100,7 +100,7 @@ object Versions {
     // Test
     const val junitVersion = "4.13.2"
     const val junitTestVersion = "1.1.5"
-    const val espressoCoreVersion = "3.4.0"
+    const val espressoCoreVersion = "3.5.1"
     const val hiltAndroidTesting = "2.38.1"
     const val hiltAndroidCompiler = "2.41"
 
@@ -109,5 +109,5 @@ object Versions {
     const val protobuf_protoc = "3.8.0" //https://github.com/google/protobuf-gradle-plugin
     const val protoc_gen_javalite = "3.0.0" //https://github.com/google/protobuf-gradle-plugin
     const val protoc_grpc = "1.0.0-pre2" //https://github.com/google/protobuf-gradle-plugin
-    const val data_store = "1.1.0-dev01" //https://developer.android.com/jetpack/androidx/releases/datastore
+    const val data_store = "1.1.1" //https://developer.android.com/jetpack/androidx/releases/datastore
 }

@@ -16,7 +16,6 @@ fun DependencyHandler.requiredLibraries() {
     api(RequiredLibraries.timber)
     api(RequiredLibraries.runtime_ktx)
     api(RequiredLibraries.hilt_android)
-    //api(RequiredLibraries.hilt_lifecycle_viewmodel)
     kapt(RequiredLibraries.kapt_hilt_android_compiler)
     kapt(RequiredLibraries.kapt_hilt_compiler)
     kapt("org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.3.0")
