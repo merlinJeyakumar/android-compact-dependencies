@@ -93,8 +93,8 @@ object NetworkLibraries {
         "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp_logging_interceptor}"
     const val stetho = "com.facebook.stetho:stetho:${Versions.stetho}"
     const val stetho_okhttp3 = "com.facebook.stetho:stetho-okhttp3:${Versions.stetho_okhttp3}"
-    const val chucker_debug = "com.github.chuckerteam.chucker:library:${Versions.chucker}"
-    const val chucker_release = "com.github.chuckerteam.chucker:library-no-op:${Versions.chucker}"
+    const val chucker_debug = "com.github.chuckerteam.chucker:library:4.1.0"
+    const val chucker_release = "com.github.chuckerteam.chucker:library-no-op:4.1.0"
 }
 
 object FirebaseLibraries {
@@ -176,8 +176,10 @@ object TestLibraries {
 
 object ThirdPartyLibraries {
     const val jsoup = "org.jsoup:jsoup:${Versions.jsoup}" //html-parser
-    const val auto_starter = "com.github.judemanutd:autostarter:1.0.6" //https://github.com/judemanutd/AutoStarter
-    const val subsampling_scale_image_view = "com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0" //https://github.com/davemorrissey/subsampling-scale-image-view
+    const val auto_starter =
+        "com.github.judemanutd:autostarter:1.0.6" //https://github.com/judemanutd/AutoStarter
+    const val subsampling_scale_image_view =
+        "com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0" //https://github.com/davemorrissey/subsampling-scale-image-view
     const val otpview_pinview = "com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0"
     const val material_spinner = "com.jaredrummler:material-spinner:1.3.1"
 }
