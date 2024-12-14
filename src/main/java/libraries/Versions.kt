@@ -7,10 +7,10 @@ object Versions {
     const val core_ktx = "1.9.0" //todo: https://androidx.tech/artifacts/core/core-ktx/
     const val multi_dex = "2.0.1"
     const val lifecycle_extension = "2.2.0" //https://developer.android.com/jetpack/androidx/releases/lifecycle
-    const val coroutines_android = "1.7.1" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-android
-    const val coroutines_core = "1.7.1" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
-    const val coroutines_test = "1.7.1" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-test
-    const val coroutines_play_services = "1.7.1" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-play-services
+    const val coroutines_android = "1.9.0" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-android
+    const val coroutines_core = "1.9.0" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
+    const val coroutines_test = "1.9.0" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-test
+    const val coroutines_play_services = "1.9.0" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-play-services
     const val json_serializer = "1.0.1"
     const val anko = "0.10.4" //https://mvnrepository.com/artifact/org.jetbrains.anko/anko?repo=springio-plugins-release
     const val anko_commons = "0.10.4" //https://mvnrepository.com/artifact/org.jetbrains.anko/anko-common?repo=springio-plugins-release
