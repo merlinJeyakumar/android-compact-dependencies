@@ -4,7 +4,7 @@ object ProjectRootLibraries {
     const val classpathGradle =
         "com.android.tools.build:gradle:8.1.1"
     const val classpathKotlinGradle =
-        "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20"
+        "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10"
     const val classpathDaggerHiltVersion =
         "com.google.dagger:hilt-android-gradle-plugin:${Versions.classpathDaggerHiltVersion}"
     const val classPathGoogleService =

@@ -8,9 +8,9 @@ object Versions {
     const val multi_dex = "2.0.1"
     const val lifecycle_extension = "2.2.0" //https://developer.android.com/jetpack/androidx/releases/lifecycle
     const val coroutines_android = "1.9.0" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-android
-    const val coroutines_core = "1.9.0" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
-    const val coroutines_test = "1.9.0" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-test
-    const val coroutines_play_services = "1.9.0" //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-play-services
+    const val coroutines_core = coroutines_android //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
+    const val coroutines_test = coroutines_android //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-test
+    const val coroutines_play_services = coroutines_android //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-play-services
     const val json_serializer = "1.0.1"
     const val anko = "0.10.4" //https://mvnrepository.com/artifact/org.jetbrains.anko/anko?repo=springio-plugins-release
     const val anko_commons = "0.10.4" //https://mvnrepository.com/artifact/org.jetbrains.anko/anko-common?repo=springio-plugins-release
@@ -21,7 +21,7 @@ object Versions {
     const val runtime_ktx = "2.6.1" //https://developer.android.com/jetpack/androidx/releases/lifecycle
     const val viewmodel_ktx = "2.6.1" //https://developer.android.com/jetpack/androidx/releases/viewmodel
     const val livedata_ktx = "2.6.1" //https://developer.android.com/jetpack/androidx/releases/lifecycle
-    const val classpathDaggerHiltVersion = "2.48" //https://dagger.dev/hilt/gradle-setup.html
+    const val classpathDaggerHiltVersion = "2.51.1" //https://dagger.dev/hilt/gradle-setup.html
     const val hilt_android = classpathDaggerHiltVersion //"2.42" //https://dagger.dev/hilt/gradle-setup.html
     const val hilt_android_compiler = classpathDaggerHiltVersion//"2.42" //https://dagger.dev/hilt/gradle-setup.html
     const val hilt_compiler = "1.0.0" //https://developer.android.com/training/dependency-injection/hilt-jetpack
