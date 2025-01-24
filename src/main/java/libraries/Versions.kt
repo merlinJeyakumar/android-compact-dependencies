@@ -56,11 +56,11 @@ object Versions {
     const val rx_data_store = "1.0.0"
 
     //Network Libraries
-    const val retrofit = "2.9.0" //https://github.com/square/retrofit
-    const val rx_adapter = "2.9.0"
-    const val retrofit_converter_gson = "2.9.0"
-    const val okhttp = "3.5.0.0-alpha.10.1"
-    const val okhttp_logging_interceptor = "5.0.0-alpha.11"
+    const val retrofit = "2.11.0" //https://github.com/square/retrofit
+    const val rx_adapter = retrofit
+    const val retrofit_converter_gson = retrofit
+    const val okhttp = "4.12.0"
+    const val okhttp_logging_interceptor = okhttp
     const val stetho = "1.5.1"
     const val stetho_okhttp3 = "1.5.1"
     const val chucker = "3.5.2"
