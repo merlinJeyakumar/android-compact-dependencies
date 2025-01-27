@@ -13,9 +13,10 @@ object ProjectRootLibraries {
         "com.google.firebase:perf-plugin:${Versions.classpathFirebasePerfs}"
     const val classpathCrashlytics =
         "com.google.firebase:firebase-crashlytics-gradle:${Versions.classpathCrashlytics}"
-    const val support = ":jeyksupport"
-    const val data = ":data"
-    const val domain = ":domain"
+    const val support = ":support"
+    const val shared = ":shared"
+    const val nativedevps = ":nativedevps"
+    const val googleAuth = ":JGoogleAuth"
 }
 
 object RequiredLibraries {
@@ -115,6 +116,8 @@ object FirebaseLibraries {
         "com.google.firebase:firebase-database"
     const val firebase_firestore =
         "com.google.firebase:firebase-firestore-ktx"
+    const val firebase_admin =
+        "com.google.firebase:firebase-admin:9.2.0"
     const val firebase_platform_bom = "com.google.firebase:firebase-bom:${Versions.firebase_bom}"
 }
 
@@ -202,6 +205,12 @@ object GoogleMiscLibraries {
 }
 
 object NavigationLibraries {
-    const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:2.5.3"
-    const val navigationUi = "androidx.navigation:navigation-ui-ktx:2.5.3"
+    const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:2.7.0"
+    const val navigationUi = "androidx.navigation:navigation-ui-ktx:2.7.0"
+    const val classpathNavigationSafeargs = "androidx.navigation:navigation-safe-args-gradle-plugin:2.7.0"
+}
+
+object Modules {
+    const val JGoogleAuth = ":JGoogleAuth"
+    const val AdminNativeDevps = ":AdminNativeDevps"
 }
