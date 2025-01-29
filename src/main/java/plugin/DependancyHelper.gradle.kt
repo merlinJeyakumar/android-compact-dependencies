@@ -43,6 +43,7 @@ fun DependencyHandler.supportLibraries() {
     implementation(SupportLibraries.libphonenumber)
     implementation(SupportLibraries.work_runtime_ktx)
     implementation(SupportLibraries.work_hilt)
+    implementation("com.jakewharton.timber:timber:5.0.1")
 }
 
 fun DependencyHandler.imageLoaderLibraries() {
