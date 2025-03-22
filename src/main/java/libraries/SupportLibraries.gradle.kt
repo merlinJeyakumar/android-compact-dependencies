@@ -205,9 +205,9 @@ object GoogleMiscLibraries {
 }
 
 object NavigationLibraries {
-    const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:2.7.0"
-    const val navigationUi = "androidx.navigation:navigation-ui-ktx:2.7.0"
-    const val classpathNavigationSafeargs = "androidx.navigation:navigation-safe-args-gradle-plugin:2.7.0"
+    const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:2.8.9"
+    const val navigationUi = "androidx.navigation:navigation-ui-ktx:2.8.9"
+    const val classpathNavigationSafeargs = "androidx.navigation:navigation-safe-args-gradle-plugin:2.8.9"
 }
 
 object Modules {
